@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     var authStateDidChangeListenerHandle: AuthStateDidChangeListenerHandle?
     
     
+    //........ Firebase
+    
     lazy var loginbutton:UIButton = {
         let button = UIButton()
         button.setTitle("login", for: .normal)
